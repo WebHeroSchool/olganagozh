@@ -1,3 +1,43 @@
 .title {
   font-family: Roboto;
 }
+.title {
+  font-family: Roboto;
+}
+.menu_item {
+  border:dashed 1px red;
+}
+.wrapper {
+  margin:auto;
+  border:dashed 1px red;
+  width:80%;
+}
+.header {
+  display:flex;
+  justify-content:space-between;
+}
+body {
+  margin:0;
+  border:dashed 1px red;
+}
+.logo,.menu {
+  display:inline-block;
+  border:dashed 1px red;
+}
+.logo {
+  margin-right:63%
+  }
+.logo {
+  padding:40px 0;
+}
+.menu{
+  display:flex;
+  align-items:center
+}
+.menu_item {
+  padding:0 13px;
+  border:dashed 1px red
+}
+.menu_item:last-child {
+  padding-right:0;
+}
