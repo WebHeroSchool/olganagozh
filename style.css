@@ -1,6 +1,4 @@
-.title {
-  font-family: Roboto;
-}
+
 .title {
   font-family: Roboto;
 }
@@ -24,9 +22,7 @@ body {
   display:inline-block;
   border:dashed 1px red;
 }
-.logo {
-  margin-right:63%
-  }
+
 .logo {
   padding:40px 0;
 }
@@ -40,4 +36,20 @@ body {
 }
 .menu_item:last-child {
   padding-right:0;
+}
+h1{
+  border:dashed 1px red;
+  display:block;
+  width:33%;
+  display:flex;
+  margin:8px
+}
+p{
+  border:dashed 1 px red;
+  display:block;
+  display:flex;
+  width:30%;
+}
+button{
+ display:flex;
 }
