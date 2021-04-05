@@ -1,7 +1,4 @@
 
-.title {
-  font-family: Roboto;
-}
 .menu_item {
   border:dashed 1px red;
 }
@@ -51,6 +48,7 @@ p{
   display:block;
   display:flex;
   width:30%;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 button{
  display:flex;
