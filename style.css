@@ -42,7 +42,8 @@ h1{
   display:block;
   width:33%;
   display:flex;
-  margin:8px
+  margin:8px;
+  margin-top:15%;
 }
 p{
   border:dashed 1 px red;
