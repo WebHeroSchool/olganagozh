@@ -1,0 +1,55 @@
+
+.menu_item {
+  border:dashed 1px red;
+}
+.wrapper {
+  margin:auto;
+  border:dashed 1px red;
+  width:80%;
+}
+.header {
+  display:flex;
+  justify-content:space-between;
+}
+body {
+  margin:0;
+  border:dashed 1px red;
+}
+.logo,.menu {
+  display:inline-block;
+  border:dashed 1px red;
+}
+
+.logo {
+  padding:40px 0;
+  font-family: pt_serif, arial, helvetica, sans-serif;
+}
+.menu{
+  display:flex;
+  align-items:center
+}
+.menu_item {
+  padding:0 13px;
+  border:dashed 1px red
+}
+.menu_item:last-child {
+  padding-right:0;
+}
+h1{
+  border:dashed 1px red;
+  display:block;
+  width:33%;
+  display:flex;
+  margin:8px;
+  margin-top:15%;
+}
+p{
+  border:dashed 1 px red;
+  display:block;
+  display:flex;
+  width:30%;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+button{
+ display:flex;
+}
