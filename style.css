@@ -95,6 +95,7 @@ body {
 
 .main {
   background: top right no-repeat url(img/mainimg.svg);
+  background-size: contain;
   padding: 0 63% 100px 0;
 }
 
