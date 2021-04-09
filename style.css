@@ -54,6 +54,14 @@ body {
   background: #C8DBFB;
 }
 
+.points {
+background: no-repeat url(img/points.svg);
+padding: 0 39%;
+background-position: bottom; right:
+width: 32px;
+height: 8px;
+}
+
 .menu {
   display: flex;
   align-items: center
@@ -105,7 +113,9 @@ body {
 }
 
 .main_title-text_highlight {
-  background: #ecf3ff;
+  background: linear-gradient(
+180deg
+,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 
 .main_subtitle {
@@ -127,3 +137,33 @@ body {
 .main_button {
   opacity: .5;
 }
+
+*/@media (max-width; 768px) {
+.menu {
+  display: none;
+}
+
+.header {
+  margin-bottom: 28px;
+}
+
+.main {
+  padding: 74% 0 0;
+  background-size: 74%;
+  background-position: top center;
+}
+
+.main_title {
+  margin-bottom: 44px;
+  font: bold 30px/39px pt_serifbold, arial, helvetica, sans-serif;
+}
+
+.main_subtitle {
+  margin-bottom: 25px;
+  font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+}
+
+.main_button {
+  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+}
+}*/
