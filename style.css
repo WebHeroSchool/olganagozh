@@ -1,11 +1,6 @@
 
-.menu_item {
-  border: dashed 1px red;
-}
-
 .wrapper {
   margin: auto;
-  border:dashed 1px red;
   width: 80%;
 }
 
@@ -17,12 +12,10 @@
 
 body {
   margin: 0;
-  border: dashed 1px red;
 }
 
 .logo,.menu {
   display: inline-block;
-  border: dashed 1px red;
 }
 
 .logo {
@@ -41,7 +34,6 @@ body {
   height: 28px;
   border-radius: 50%;
   opacity: .7;
-  border: dashed 1px red;
 }
 
 .logo_circle_color_dark-blue {
@@ -52,6 +44,14 @@ body {
   left: 8px;
   top: 56%;
   background: #C8DBFB;
+}
+
+.points {
+background: no-repeat url(img/points.svg);
+padding: 0 39%;
+background-position: bottom; right:
+width: 32px;
+height: 8px;
 }
 
 .menu {
@@ -66,7 +66,6 @@ body {
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
-  border: dashed 1px red
 }
 
 .menu_item:hover {
@@ -95,6 +94,7 @@ body {
 
 .main {
   background: top right no-repeat url(img/mainimg.svg);
+  background-size: contain;
   padding: 0 63% 100px 0;
 }
 
@@ -104,7 +104,9 @@ body {
 }
 
 .main_title-text_highlight {
-  background: #ecf3ff;
+  background: linear-gradient(
+180deg
+,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 
 .main_subtitle {
@@ -123,6 +125,87 @@ body {
   transition: opacity .5s;
 }
 
-.main_button {
-  opacity: .5;
+.main_button:hover {
+    opacity: .5;
 }
+
+*/@media (max-width: 768px) {
+.menu {
+  display: none;
+}
+
+.header {
+  margin-bottom: 28px;
+}
+
+.main {
+  text-align: center;
+  padding: 74% 0 0;
+  background-size: 74%;
+  background-position: top center;
+}
+
+.main_title {
+  margin-bottom: 44px;
+  font: bold 30px/39px pt_serifbold, arial, helvetica, sans-serif;
+}
+
+.main_subtitle {
+  margin-bottom: 25px;
+  font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+}
+
+.main_button {
+  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+}
+
+.menu-burger_header {
+  position: relative;
+  width: 40px;
+  height: 35px;
+  display: block;
+  margin-left: 10px;
+}
+
+.menu-burger_header span, .menu-burger_header:after, .menu-burger_header:before {
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  background: #515758;
+  margin: 0 auto;
+}
+
+.menu-burger_header span {
+  top: 21px;
+}
+
+.menu-burger_header:after, .menu-burger_header:before {
+  content: '';
+}
+
+.menu-burger_header:after {
+  bottom: 5px;
+}
+
+.menu-burger_header:before {
+  top: 5px;
+}
+}
+
+@media (max-width: 1024){
+  .menu {
+    display: flex;
+  }
+
+  .header {
+    margin-bottom: 28px;
+  }
+
+  .main {
+    text-align: left;
+  }
+
+  .image-content {
+    position: top right;
+  }
+}*/
